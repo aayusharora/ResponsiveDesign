@@ -2,19 +2,42 @@
 
 		.container {
             /* add code */
+			display: flex;
+			flex-wrap: wrap;
 		}
           
 	
 	    .box1,.box2,.box3,.box4,.box5 {	
 			 /* add code */
+			height: 200px;
+			width: 100%;
+			transition: width .1s;
 		} 
-        
+        .box1 {
+			background-color: red;
+		}
+  .box2 {
+	  background-color: blue;
+  }
+  .box3 {
+	  background-color: green;
+  }
+  .box4 {
+	  background-color: orange;
+  }
+  .box5 {
+	  background-color: gray;
+  }
+
        
      /* Small screen lesser than 720px*/
 
 	@media screen and (min-width: 480px) {
 
       /* add code */
+		.box2,.box3,.box4,.box5 {
+			width: 50%;
+		}
     }
 
      /* add media query for Screen more than 720px*/

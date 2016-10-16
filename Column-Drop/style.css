@@ -1,10 +1,12 @@
-  /* Small screen lesser than 480px*/
+/* Small screen lesser than 480px*/
 
 		.container {
             /* add code */
-	        display: ;
+	        display: flex;
 	        display: -webkit-flex;
-	        flex-flow: ;
+          flex-direction: row;
+          flex-wrap: wrap;
+	        flex-flow: row wrap;
 	        -webkit-flex-flow: row wrap;
 		}
           
@@ -12,32 +14,90 @@
        	    min-height: 150px;
         	min-width: 150px;  
        } 
+
     
-       .box1, .box2, .box3 {
+       .box1, .box2, .box3 , .box4, .box5 {
 			width: 100%;
        }
+        .box1{
+          background-color: lightsalmon;
+        }
+        .box2{
+          background-color: lightblue;
+        }
+        .box3{
+          background-color: lightseagreen;
+        }
+        .box4{
+          background-color: lightpink;
+        }
+        .box5{
+          background-color: lightyellow;
+        }
        
      /* Small screen lesser than 600px*/
+     @media screen and (min-width: 150px) {
+      .container {
+        height: 750px;
+      }
+          .box1, .box2, .box3 , .box4, .box5 {
+      width: 100%;
+       }
+
+
+      } 
+      @media screen and (min-width: 300px) {
+        .container {
+        height: 750px;
+      }
+
+      
+           .box2, .box3 , .box4, .box5 {
+              width: 50%;
+            }
+
+      } 
+
+
 
 	@media screen and (min-width: 600px) {
 
       /* add code */
-        .box1 {
-            /* width -> 60 and order will be 2 */
-        }
+      .container {
+        height: 750px;
+      }
 
-        .box2 {
-        	
-        }
-
-        .box3 {
-        
-        }
+        .box1{
+              width: 60%;
+            }
+            .box2{
+              width: 39.9%;
+            }
+            .box3 , .box4, .box5 {
+              width: 33.3%;
+            }
+      }
     }
 
 
 
      /* add media query for Screen more than 720px*/
     	@media screen and (min-width: 800px) {
+            .container {
+              width: 800px;
+              height: 750px;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .box1{
+              width: 60%;
+            }
+            .box2{
+              width: 39.9%;
+            }
+            .box3 , .box4, .box5 {
+              width: 33.3%;
+            }
 
-    	}
+    	} 
+      

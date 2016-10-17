@@ -1,0 +1,43 @@
+  /* Small screen lesser than 480px*/
+
+		.container {
+            /* add code */
+	        display: ;
+	        display: -webkit-flex;
+	        flex-flow: ;
+	        -webkit-flex-flow: row wrap;
+		}
+          
+       .container div {
+       	    min-height: 150px;
+        	min-width: 150px;  
+       } 
+    
+       .box1, .box2, .box3 {
+			width: 100%;
+       }
+       
+     /* Small screen lesser than 600px*/
+
+	@media screen and (min-width: 600px) {
+
+      /* add code */
+        .box1 {
+            /* width -> 60 and order will be 2 */
+        }
+
+        .box2 {
+        	
+        }
+
+        .box3 {
+        
+        }
+    }
+
+
+
+     /* add media query for Screen more than 720px*/
+    	@media screen and (min-width: 800px) {
+
+    	}

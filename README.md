@@ -12,10 +12,12 @@
 
 ## How to learn from this repository ?
 
-- Folders
+- Practice Material/
      - Mostly Fluid 
      - Column-Drop
      - Layout-Shifter
+     - Solutions
+     
   All of these contain a html file ( already coded ) and to practice a partially complete CSS file. If you are familiar with FlexBox design 
   you can complete the files.
   

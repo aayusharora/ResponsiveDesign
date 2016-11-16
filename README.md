@@ -1,7 +1,7 @@
 # Responsive Design Patterns
 
 ## About
-### This repository will introduce you to the most common CSS Design Patterns with the working examples. We are covering four majorly used design patterns.
+#### This repository will introduce you to the most common CSS Design Patterns with the working examples. We are covering four majorly used design patterns.
 
 
 - Mostly Fluid

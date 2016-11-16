@@ -2,6 +2,7 @@
 
 ## About
 #### This repository will introduce you to the most common CSS Design Patterns with the working examples. We are covering four majorly used design patterns.
+//demo changes
 
 
 - Mostly Fluid

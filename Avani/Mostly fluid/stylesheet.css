@@ -1,0 +1,46 @@
+.parent
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box1, .box2, .box3, .box4
+{
+	height: 50vh;
+	/*margin: 10px;*/
+}
+
+
+.box1
+{
+	background-color: #006064;
+}
+
+
+.box2
+{
+	background-color: #18ffff ;
+}
+
+.box3
+{
+	background-color: #e0f7fa;
+}
+
+.box4
+{
+	background-color: #00b8d4;
+}
+
+
+@media screen and (max-width:576px )
+{
+	.box1, .box4
+	{
+		height: 100vh;
+	}
+	.box2, .box3
+	{
+		height: 50vh;
+	}
+}

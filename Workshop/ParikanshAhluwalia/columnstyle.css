@@ -1,0 +1,61 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#parent {
+	display: flex;
+	flex-wrap : wrap;
+}
+.box {
+	width: 100%;
+}
+#first {
+	height: 120%;
+	background: #e65100;
+}
+#second {
+	height: 70%;
+	background: #ff9800;
+}
+#third {
+	height: 70%;
+	background: #ffcc80;
+}
+@media screen and (min-width : 550px) {
+	#first {
+		height: 60%;
+	}
+}
+@media screen and (min-width : 900px) {
+	#first {
+		order: 2;
+		height: 100%;
+		width: 70%;
+	}
+	#second {
+		order: 1;
+		height: 100%;
+		width: 30%;
+	}
+	#third {
+		order: 3;
+		width: 100%;
+		height: 40%;
+	}
+}
+@media screen and (min-width : 1200px) {
+	#first {
+		width: 60%;
+		height: 100%;
+	}
+	#second {
+		width: 20%;
+		height: 100%;
+	}
+	#third {
+		width: 20%;
+		height: 100%;
+	}
+}
+

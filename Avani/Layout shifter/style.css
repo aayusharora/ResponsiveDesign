@@ -1,0 +1,98 @@
+.spar, .par
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.box1
+{
+	background-color: #e1bee7;
+	display: flex;
+}
+
+.box2
+{
+	background-color:#9c27b0;
+}
+
+
+.box3
+{
+	background-color: #ea80fc;
+}
+
+
+
+
+@media screen and (max-width: 768px) 
+{
+	.par, .box1, .box2, .box3
+	{
+		width: 100%;
+	}
+	.box1
+	{
+		height: 10vh;
+	}
+
+
+	.box2
+	{
+		height: 70vh;
+	}
+
+	.box3
+	{
+		height: 100vh;
+	}
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{	
+	.par, .box1, .box2, .box3
+	{
+		width: 100%;
+	}
+	.box1
+	{
+		height: 20vh;
+	}
+
+
+	.box2
+	{
+		height: 50vh;
+	}
+
+	.box3
+	{
+		height: 60vh;
+	}
+
+}
+
+
+
+
+@media screen and (min-width: 992px) 
+{
+	.par
+	{
+		width:80%;
+	}
+	.box1
+	{
+		width: 20%;
+		flex-direction: column;
+	}
+
+	.box2, .box3
+	{
+		height: 50vh;
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,77 @@
+.parent{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
+div div{
+    height: 200px;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: #dbff3c;
+}
+.box4{
+    background-color: #ff1ec8;
+}
+.box5{
+    background-color: #52ff0d;
+}
+.box6{
+    background-color: #ff0e09;
+}
+@media screen and (max-width: 600px){
+    .box1{
+        width:100%;
+    }
+    .box2{
+        width:100%;
+    }
+    .box3{
+        width:100%;
+    }
+    .box4{
+        width:100%;
+    }
+    .box5{
+        width:100%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 992px){
+    .box1{
+        width:100%;
+    }
+    .box2{
+        width:50%;
+    }
+    .box3{
+        width:50%;
+    }
+    .box4{
+        width:50%;
+    }
+    .box5{
+        width:50%;
+    }
+}
+@media screen and (min-width: 992px){
+    .box1{
+        width:60%;
+    }
+    .box2{
+        width:40%;
+    }
+    .box3{
+        width:33.33%;
+    }
+    .box4{
+        width:33.33%;
+    }
+    .box5{
+        width:33.33%;
+    }
+}

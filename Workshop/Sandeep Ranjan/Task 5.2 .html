@@ -1,0 +1,101 @@
+
+<html>
+    <head>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+
+            }
+            .parent {
+                display: flex;
+                flex-wrap: wrap;   
+                
+            
+            }
+            
+            .box1 {
+                background-color: #376fdc;
+               
+            }
+            
+            .box2 {
+                background-color: #163c8a;
+                
+            }
+            
+            .box3 {
+                background-color: #c8d9fa;
+            }
+            
+            
+            @media screen and (min-width: 300px) {
+                .box1, .box2, .box3 {
+                    width: 100%;
+                }
+                
+                .box2 {
+                    order: 1;
+                    height: 120vh;
+                }
+                
+                .box1 {
+                    order: 2;
+                    height: 60vh;
+                }
+                
+                .box3 {
+                    order: 3;
+                    height: 60vh;
+                }
+                
+            
+            }
+            
+            @media screen and (min-width: 600px){
+                .box1, .box2 {
+                    height: 100vh;
+                }
+                
+                .box1 {
+                    width: 30%;
+                    order: 1;
+                }
+                
+                .box2 {
+                    width: 70%;
+                    order: 2;
+                }
+                
+                .box3 {
+                    width: 100%;
+                    height: 30vh;
+                    order: 3;
+                }
+                
+                
+            }
+            
+            @media screen and (min-width: 800px) {
+                .box1, .box2, .box3 {
+                    height: 100vh;
+                }
+                
+                .box1 , .box3 {
+                    width: 25%
+                }
+                
+                .box2 {
+                    width: 50%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>    
+    </body>
+</html>

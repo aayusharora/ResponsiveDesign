@@ -1,0 +1,13 @@
+a {
+    padding: 20px;
+    background: silver;
+    border-radius: 5px;
+    text-align: center;
+    display: table;
+    margin: 10px auto;
+}
+
+a:hover {
+    text-decoration: none;
+    background: linear-gradient(silver,grey);
+}

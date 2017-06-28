@@ -2,16 +2,13 @@
 
 		.container {
             /* add code */
-	        display: ;
+            /*display: ;*/
 	        display: -webkit-flex;
-	        flex-flow: ;
+	       /*// flex-flow: ;*/
 	        -webkit-flex-flow: row wrap;
 		}
 
-       .container div {
-       	  min-height: 150px;
-        	min-width: 150px;
-       }
+
 
        .box1, .box2, .box3, .box4, .box5 {
 			   width: 100%;

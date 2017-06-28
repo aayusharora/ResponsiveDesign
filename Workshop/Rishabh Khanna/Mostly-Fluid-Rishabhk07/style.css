@@ -3,8 +3,6 @@
 		.container {
 			display: flex;
 			display: -webkit-flex;
-			flex-wrap: wrap;
-			flex-wrap: -webkit-wrap;
             /* add code */
 		}
           

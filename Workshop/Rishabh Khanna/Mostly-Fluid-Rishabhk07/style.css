@@ -1,0 +1,71 @@
+  /* Small screen lesser than 480px*/
+
+		.container {
+			display: flex;
+			display: -webkit-flex;
+			flex-wrap: wrap;
+			flex-wrap: -webkit-wrap;
+            /* add code */
+		}
+          
+	
+	    .box1,.box2,.box3,.box4,.box5 {	
+			 /* add code */
+			 height: 200px;
+			 width: 100%;
+			 transition: width .1s;
+		} 
+
+		.box1{
+			background-color: red;
+		}
+
+		.box2{
+			background-color: blue;
+		}
+
+		.box3{
+			background-color: green;
+		}
+
+		.box4{
+			background-color: gray;
+		}
+
+		.box5{
+			background-color: yellow;
+		}
+        
+       
+     /* Small screen lesser than 720px*/
+
+	@media(min-width: 600px) {
+		.box2 , .box3 , .box4 , .box5 {
+			width: 50%;
+		}
+
+	@media(min-width: 800px){
+		.box1 {
+			width: 60%
+		}
+		.box2 {
+			width: 40%;
+		}
+		.box3, .box4, .box5 {
+			width: 33.3%
+		}
+	}
+
+	@media(min-width: 1200px){
+		.container {
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto; 
+		}
+	}
+
+
+      /* add code */
+    }
+
+     /* add media query for Screen more than 720px*/

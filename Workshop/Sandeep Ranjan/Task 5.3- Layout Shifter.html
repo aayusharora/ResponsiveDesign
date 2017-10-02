@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <style>
+            
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            .parent {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+             .box2 {
+                background-color: #376fdc;
+               
+            }
+            
+            .box1 {
+                background-color: #163c8a;
+                
+            }
+            
+            .box3 {
+                background-color: #c8d9fa;
+            }
+            
+            @media screen and (min-width: 300px) {
+                .box1 {
+                    width: 100%;
+                    height: 30vh;
+                }
+                
+                .child {
+                    width: 100%;
+                    height: 100vh;
+                }
+                
+                .box2, .box3 {
+                    width: 100%;
+                    height: 50vh;
+                }
+            }
+            
+            @media screen and (min-width: 800px){
+                .parent {
+                    width: 800px;
+                    margin: 0 auto;
+                }
+                
+                .box1, .child {
+                    height: 100vh;
+                }
+                
+                .box1 {
+                    width: 15%;
+                }
+                
+                .child {
+                    width: 85%;
+                    
+                }
+                
+                .box2, .box3 {
+                    width: 100%;
+                    height: 50vh;
+                }
+                
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="box1"></div>
+            <div class="child">
+                 <div class="box2"></div>
+                 <div class="box3"></div>
+            </div>
+           
+    </body>
+</html>

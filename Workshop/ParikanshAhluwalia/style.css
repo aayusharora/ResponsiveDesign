@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+body {
+	padding: 0;
+	margin: 0;
+	background: #b3e5fc;
+}
+h1 {
+	font-family: 'Lato', sans-serif;
+	color: #004d40;
+	padding-top: 10%;
+}

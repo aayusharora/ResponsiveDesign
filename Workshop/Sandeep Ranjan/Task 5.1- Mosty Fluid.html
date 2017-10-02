@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        
+        <style>
+            
+            * {
+                padding: 0;
+                margin: 0;
+
+            }
+            .parent {
+                display: flex;
+                flex-wrap: wrap;
+                width: 800px;
+                justify-content: center;
+                margin: 0 auto;
+               
+            }
+            
+           
+            
+            .box1 {
+                background-color: #163c8a;
+                
+            }
+            
+            .box2 {
+                background-color: #376fdc;
+                
+            }
+            
+            .box3 {
+                background-color: #c8d9fa;
+               
+            }
+            
+            .box4 {
+                background-color: #d5dff0;
+           
+            }
+            
+            .box5 {
+                background-color: #e0e2e6;
+             
+            }
+            
+            
+            @media screen and (min-width: 300px) {
+                .box1, .box2, .box3, .box4, .box5 {
+                    width: 100%;
+                   
+                }
+                
+                .box1 {
+                    height: 130vh;
+                }
+                .box2, .box3, .box4, .box5 {
+                    height: 30vh;
+                }
+            }
+                
+            
+         
+            
+            @media screen and (min-width: 600px) {
+                .box1 {
+                    width: 100%;
+                    height: 60vh;
+                }
+                .box2, .box3, .box4, .box5 {
+                    width: 50%;
+                    height: 30vh;
+                }
+            }
+            
+               @media screen and (min-width: 800px) {
+                .parent {
+                width: 800px;
+                justify-content: center;
+                margin: 0 auto;
+                }
+                    .box1, .box2, .box3, .box4, .box5 {
+                height: 50vh;
+            }
+                   
+                   
+               .box1{
+                    width: 60%;
+               
+                }
+                
+                .box2 {
+                    width: 40%;
+                }
+                
+                .box3, .box4, .box5 {
+                    width: 33.33%;
+                  
+                }
+                
+             
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+        </div>
+    </body>
+</html>

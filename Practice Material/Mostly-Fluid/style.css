@@ -1,0 +1,60 @@
+.container {
+
+	display : -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.box1 {
+	background-color: blue;
+}
+
+.box2 {
+	background-color: red;
+}
+
+.box3 {
+	background-color: green;
+}
+
+.box4 {
+	background-color: orange;
+}
+
+.box5 {
+	background-color: gray;
+}
+
+.box1, .box2 , .box3 ,.box4 , .box5 {
+	width : 100%;
+	height: 200px;
+}
+
+@media (min-width:  600px) {
+	.box2, .box3 , .box4, .box5 {
+		width: 50%;
+	}
+}
+
+@media (min-width:  800px) {
+	.box1 {
+		width: 60%;
+	}
+
+	.box2 {
+		width: 40%;
+	}
+
+	.box3, .box4, .box5 {
+		width : 33.33%;
+	}
+}
+
+@media (min-width: 800px) {
+	.container {
+		width : 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

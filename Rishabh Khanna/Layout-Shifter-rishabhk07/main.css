@@ -1,0 +1,43 @@
+.container{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.container div{
+	min-height: 150px;
+	min-width: 150px;
+}
+
+.box1, .box2, .box3{
+	width:100%;
+}
+
+.box1 {
+	background-color: rgb(100,0,140);
+}
+
+.box2 {
+	background-color: rgb(0,20,205);
+}
+
+.box3 {
+	background-color: rgb(20,120,240);	
+}
+
+@media screen and (min-width: 657px) { 
+	.box1{
+		width: 25%
+	}
+	.box2{
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.container{
+		width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+

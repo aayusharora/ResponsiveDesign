@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mostly Fluid</title>
+	<style type="text/css">
+	.box1, .box2, .box3, .box4, .box5{
+			height: 200px;
+			width: 100%;
+		}
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 auto;
+			
+		}
+		.box1 {
+			background-color: lavender;
+		}
+		.box2 {
+			background-color: hotpink;
+		}
+		.box3 {
+			background-color: lawngreen;
+		}
+		.box4 {
+			background-color: aquamarine;
+		}
+		.box5 {
+			background-color: aqua;
+		}
+		
+			
+		@media only screen and (min-width: 480px) and (max-width: 720px){
+ 			.box1{
+ 				width: 100%;
+ 			}
+ 			.box2, .box3, .box4 , .box5{
+			width: 50%;
+			}
+		}
+		@media only screen and (min-width: 720px){
+ 			.box1 {
+ 				width: 60%;
+ 			}
+
+ 			.box2{
+ 				width: 40%;
+ 			} 
+ 			.box3, .box4, .box5{
+				width: 33.33%;
+			}
+		}		
+		@media only screen and (min-width: 1000px){
+ 			.container {
+ 				width: 1000px;
+ 			}
+ 		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+	
+	<div class="box1">
+			
+	</div>
+	<div class="box2">
+			
+	</div>
+	<div class="box3">
+			
+	</div>
+	<div class="box4">
+			
+	</div>
+	<div class="box5">
+			
+	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Column Flow</title>
+	<style type="text/css">
+	.box1, .box2, .box3{
+			height: 200px;
+			width: 100%;
+		}
+		.box1 {
+			background-color: lavender;
+			order: 2;
+		}
+		.box2 {
+			background-color: hotpink;
+			order: 1;
+		}
+		.box3 {
+			background-color: lawngreen;
+			order: 3;
+		}
+		@media only screen and (min-width: 720px){
+ 			.container {
+ 				display: flex;
+ 				flex-wrap: wrap;
+ 			}
+ 			.box1 {
+ 				width: 60%;
+ 			}
+ 			.box2{
+ 				width: 40%;
+ 			} 
+ 			.box3{
+				width: 100%;
+			}
+		}		
+		@media only screen and (min-width: 1000px){
+ 			.container {
+ 				display: flex;
+ 				flex-wrap: wrap;
+ 			}
+ 			.box1 {
+ 				width: 60%;
+ 			}
+ 			.box2{
+ 				width: 20%;
+ 			} 
+ 			.box3{
+				width: 20%;
+			}
+ 		}
+	*/
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+	
+	<div class="box1">
+			
+	</div>
+	<div class="box2">
+			
+	</div>
+	<div class="box3">
+			
+	</div>
+	</div>
+</body>
+</html>

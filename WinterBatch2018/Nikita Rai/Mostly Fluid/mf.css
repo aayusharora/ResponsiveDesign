@@ -1,0 +1,80 @@
+.big-box {
+    width: 100%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap; /*All wrapped inside the container with same dimensions and responsive: no media queries*/
+    }
+
+.box{
+  
+	width: 100%;
+	min-height: 60px;
+	}
+
+.box0{
+
+		background: blue;
+			}
+.box1{
+
+		background: lightblue;
+			}
+.box2{
+
+		background: grey;
+			}
+.box3
+     {
+	background: green;
+	}
+
+.box4
+     {
+	background: yellow;
+    }
+
+@media (min-width: 500px) and (max-width: 900px)
+ { 
+
+.big-box
+    {
+    flex-direction: unset;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.box0 
+    {
+	width: 100%;
+	}
+	
+.box1,.box2,.box3, .box4
+    {
+	width: 50%;
+	}
+        }
+
+@media (min-width: 900px) 
+{
+	.big-box
+	{
+      flex-direction: row;
+      margin-left: 0 auto;
+      margin-right: 0 auto;
+    }
+
+ .box0
+   {
+    width: 60%;
+   }
+  
+ .box1
+  {
+    width: 40%;
+  }
+
+ .box2, .box3, .box4 
+ {
+   width: 33.33%;
+ }
+ }

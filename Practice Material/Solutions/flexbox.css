@@ -1,0 +1,72 @@
+  /* Small screen lesser than 480px*/
+
+		.container {
+            display: flex;
+            flex-wrap: wrap;
+		}
+          
+	
+	    .box1,.box2,.box3,.box4,.box5 {	
+			height: 200px;
+			width: 100%; 
+		    transition: width .1s;
+		} 
+
+		.box1 {
+            background-color: red;
+		}
+
+		.box2 {
+			background-color: blue;
+		}
+         
+        .box3 {
+        	background-color: green;
+        } 
+
+        .box4 {
+        	background-color: orange;
+        }
+
+        .box5 {
+        	background-color: gray;
+        }
+    
+     /* Small screen lesser than 720px*/
+
+	@media screen and (min-width: 480px) {
+
+        .box1 {	
+			width: 100%; 
+		
+		} 
+
+
+        .box2, .box3 {	
+			width: 50%; 
+			
+		} 
+
+		.box4, .box5 {
+			width: 50%; 
+		
+		}
+
+    }
+
+     /* Screen more than 720px*/
+
+    @media screen and (min-width: 720px) {
+
+	    .box1 {	
+			width: 100%; 
+		
+		} 
+
+
+	    .box2, .box3 ,.box4 ,.box5 {	
+			width: 25%; 
+			
+		} 
+
+	}

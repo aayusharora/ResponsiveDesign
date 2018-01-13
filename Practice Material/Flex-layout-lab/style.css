@@ -1,0 +1,20 @@
+  /* Small screen lesser than 480px*/
+
+		.container {
+            /* add code */
+		}
+          
+	
+	    .box1,.box2,.box3,.box4,.box5 {	
+			 /* add code */
+		} 
+        
+       
+     /* Small screen lesser than 720px*/
+
+	@media screen and (min-width: 480px) {
+
+      /* add code */
+    }
+
+     /* add media query for Screen more than 720px*/

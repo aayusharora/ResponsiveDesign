@@ -1,0 +1,57 @@
+  /* Small screen lesser than 480px*/
+
+    		.container {
+                /* add code */
+	        display: flex;
+	        display: -webkit-flex;
+	        flex-flow: row wrap;
+	        -webkit-flex-flow: row wrap;
+    		}
+          
+       .container div {
+       	  min-height: 150px;
+        	min-width: 150px;  
+       } 
+    
+       .box1, .box2, .box3,.box4 {
+			    width: 100%;
+       }
+
+  		.box1 {
+  			 background-color: rgb(0,0,250);
+  		}
+  		.box2 {
+  			background-color: rgb(0,0,140);
+  		}
+
+  		.box3 {
+  			background-color: rgb(0,260,250);
+  		}
+       
+     /* Small screen lesser than 600px*/
+
+	@media screen and (min-width: 657px) {
+
+      /* add code */
+        .box1 {
+            width: 25%;
+            
+        }
+
+        .box2 {
+        	width: 75%;
+        	
+        }
+
+    }
+
+
+
+     /* add media query for Screen more than 720px*/
+    	@media screen and (min-width: 800px) {
+          .container {
+               width: 800px;
+               margin-right: auto;
+               margin-left: auto;
+          }
+    	}

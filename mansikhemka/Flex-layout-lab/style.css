@@ -1,0 +1,45 @@
+  /* Small screen lesser than 480px*/
+
+		.container {
+            /* add code */
+            display: flex;
+            display: -webkit-flex; /* for safari*/
+            flex-wrap: wrap;
+		}
+          
+	
+	    .box1,.box2,.box3,.box4,.box5 {	
+			 /* add code */
+			 height: 200px;
+			 width:100%;
+			 transition: width .1s;
+
+		} 
+        .box1{
+        	background-color: lightsalmon;
+        }
+        .box2{
+        	background-color: lightblue;
+        }
+        .box3{
+        	background-color: lightseagreen;
+        }
+        .box4{
+        	background-color: lightpink;
+        }
+        .box5{
+        	background-color: lightyellow;
+        }
+       
+     /* Small screen lesser than 720px*/
+
+	@media screen and (min-width: 480px) {
+		.box2, .box3, .box4, .box5{
+			width: 50%;
+
+		}
+
+      /* add code */
+    }
+
+     /* add media query for Screen more than 720px*/

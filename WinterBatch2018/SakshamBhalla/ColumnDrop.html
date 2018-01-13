@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+<style>
+
+    @media(max-width:400px)
+    {
+    #main{
+        display:flex;
+          flex-direction:column;
+
+
+    }
+    #first{
+        width:100%;
+         height:900px;
+
+    }
+
+    .box1{
+        width:100%;
+        height:600px;
+        background-color: darkblue;
+
+    }
+    .box2{
+        width:100%;
+        height:300px;
+        background-color: blue;
+
+    }
+    #second{
+
+        width:100%;
+        height:300px;
+        background-color: cadetblue;
+    }
+    }
+
+    @media(min-width:401px) and (max-width:800px)
+    {
+    #main{
+        display:flex;
+        flex-direction:column;
+
+    }
+    #first{
+        width:100%;
+        height:800px;
+        display:flex;
+
+    }
+
+    .box1{
+        width:60%;
+        height:800px;
+        background-color: darkblue;
+        order:2;
+
+    }
+    .box2{
+        width:40%;
+        height:800px;
+        background-color: blue;
+        order:1;
+
+    }
+    #second{
+
+        width:100%;
+        height:300px;
+        background-color: cadetblue;
+    }
+    }
+
+    @media(min-width:801px)
+    {
+    #main{
+        display:flex;
+    }
+    #first{
+        width:70%;
+        height:900px;
+        display:flex;
+
+    }
+
+    .box1{
+        width:60%;
+        height:900px;
+        background-color: darkblue;
+        order:1;
+
+    }
+    .box2{
+        width:40%;
+        height:900px;
+        background-color: blue;
+        order:0;
+
+    }
+    #second{
+
+        width:30%;
+        height:900px;
+        background-color: cadetblue;
+    }
+    }
+
+
+
+</style>
+</head>
+<body>
+
+<div id="main">
+<div id="first">
+
+    <div class="box1"></div>
+    <div class="box2"></div>
+</div>
+    <div id="second"></div>
+</div>
+
+</body>
+</html>

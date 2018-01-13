@@ -1,0 +1,41 @@
+.outertwo{
+  min-width:120px;
+  max-width: 800px;
+  margin: 0px auto;
+}
+.outerone{
+  height:20px;
+  background-color: grey;
+}
+.upper{
+  background-color: black;
+  width: 100%;
+  height:200px;
+}
+
+.a{
+  background-color:darkblue;
+  width: 100%;
+  height:200px;
+}
+.b{
+  background-color: #f2f2f2;
+  width:100%;
+  height:200px;
+}
+@media  (min-width:650px){
+  .outertwo{
+    display: flex;
+    flex-flow: wrap;
+
+  }
+  .upper{
+    height: 400px;
+    width:20%;
+  }
+
+  .lower{
+    width:80%;
+  }
+
+}

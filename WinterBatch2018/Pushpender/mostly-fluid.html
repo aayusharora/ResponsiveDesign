@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mostly Fluid</title>
+    <style>
+        .box{
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+            margin: 0 auto;
+            max-width: 1000px;
+        }
+        .a{
+           width: 100%;
+            height: 600px;
+            //border: 2px solid darkblue;
+            background-color: darkblue;
+        }
+        .b{
+            width: 100%;
+            height: 300px;
+            /*border: 2px solid deepskyblue;*/
+            background-color: deepskyblue;
+        }
+        .c{
+            width: 100%;
+            height: 300px;
+            /*border: 2px solid orange;*/
+            background-color: orange;
+        }
+        .d{
+            width: 100%;
+            height: 300px;
+            /*border: 2px solid greenyellow;*/
+            background-color: greenyellow;
+        }
+        .e{
+            width: 100%;
+            height: 300px;
+            /*border: 2px solid #ff39c8;*/
+            background-color: #ff39c8;
+        }
+        @media screen and (min-width: 480px) and (max-width: 720px) {
+            .a{
+                height: 300px;
+            }
+            .b,.c,.d,.e{
+                width: 50%;
+                height: 150px;
+            }
+
+        }
+        @media screen and (min-width: 721px){
+            .a{
+                width: 60%;
+                height: 300px;
+            }
+            .b{
+                width: 39%;
+                height: 300px;
+            }
+            .c,.d,.e{
+                width: 33%;
+                height: 300px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class=" a"></div>
+    <div class=" b"></div>
+    <div class=" c"></div>
+    <div class=" d"></div>
+    <div class=" e"></div>
+</div>
+</body>
+</html>

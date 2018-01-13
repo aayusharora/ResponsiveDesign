@@ -1,0 +1,31 @@
+.box{
+  height: 189px;
+  margin: 0 auto;
+}
+.one{
+  background-color: #00ffd2;
+}
+.two{
+  background-color: #ff0000;
+}
+.three{
+  background-color: #ff9a00;
+}
+.four{
+  background-color: #ffb709;
+}
+.five{
+  background-color: #ffce00;
+}
+@media screen and (min-width:481px) and (max-width:720px){
+  .big-box{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .box{
+    width:50%;
+  }
+  .box.one{
+    width:100%;
+  }
+}

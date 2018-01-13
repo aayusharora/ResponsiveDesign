@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>column-drop</title>
+<style>
+   .bigbox{ display:flex;
+            margin:0 auto;
+            flex-wrap:wrap;
+            width:500px;
+            height:100px;
+   }
+    .box1{ display:inline-block; background-color: cadetblue;
+           width:200px;
+    }
+   .box2{ display:inline-block; background-color: lightblue;
+   width:200px;
+   }
+   .box3{ display:inline-block; background-color: mediumslateblue;
+   width:200px;
+   }
+   @media (max-width: 600px){
+       .box1,.box2,.box3{ width:100%;}
+   }
+    @media (min-width:600px) and (max-width:900px){
+        .box1{ width:30%;height:300px;}
+        .box2{ width:70%;height:300px;}
+        .box3{ width:100%;height:200px;}
+    }
+   @media (min-width:900px){
+       .box1{ width:30%;height:300px;}
+       .box2{ width:40%;height:300px;}
+       .box3{ width:30%;height:300px;}
+   }
+
+</style>
+</head>
+<body>
+<div class="bigbox">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</div>
+</body>
+</html>

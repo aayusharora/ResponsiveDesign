@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        @media(max-width:600px) {
+            #big {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+            #first {
+                width: 100%;
+                height: 100px;
+                background-color: darkblue;
+
+            }
+
+            #second {
+                height: 600px;
+                width: 100%;
+
+            }
+
+            .box {
+                width: 100%;
+                height: 300px;
+
+            }
+
+            .box1 {
+                background-color: blue;
+            }
+
+            .box2 {
+                background-color: cadetblue;
+
+            }
+        }
+
+        @media(min-width:601px) and (max-width:800px) {
+            #big {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+            #first {
+                width: 20%;
+                height: 600px;
+                background-color: darkblue;
+
+            }
+
+            #second {
+                height: 600px;
+                width: 80%;
+
+            }
+
+            .box {
+                width: 100%;
+                height: 300px;
+
+            }
+
+            .box1 {
+                background-color: blue;
+            }
+
+            .box2 {
+                background-color: cadetblue;
+
+            }
+        }
+
+
+        @media(min-width:801px) {
+            #big {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width:801px;
+                margin:0 auto;
+
+            }
+
+            #first {
+                width: 20%;
+                height: 600px;
+                background-color: darkblue;
+
+            }
+
+            #second {
+                height: 600px;
+                width: 80%;
+
+            }
+
+            .box {
+                width: 100%;
+                height: 300px;
+
+            }
+
+            .box1 {
+                background-color: blue;
+            }
+
+            .box2 {
+                background-color: cadetblue;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="big">
+    <div id="first"></div>
+    <div id="second">
+        <div class="box box1"></div>
+            <div class="box box2">
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

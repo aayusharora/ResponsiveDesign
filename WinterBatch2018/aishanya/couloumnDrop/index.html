@@ -1,0 +1,55 @@
+<head>
+  <style>
+body{margin: 0px;}
+.container{
+  margin-top: 20px;
+  margin-left: 20px;
+  display:flex;
+  width:100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image{width:100%; height:200px;}
+.image1{background-color: aqua; order:0;}
+.image2{background-color: red; order:1;}
+.image3{background-color: blue; order:2;}
+.image4{background-color: pink; order:3;}
+.image5{background-color: yellow; order:4;}
+.image6{background-color: green; order:5;}
+@media (max-width:420px)
+{
+  .image1{height:400px;}
+  .image2{height:200px;}
+  .image3{height:200px;}
+}
+
+@media (min-width:780px) and (max-width:1000px){
+  .image1{height:400px; width:80%; order:1;}
+  .image2{height:400px; width:20%; order:0;}
+  image3{order:2;}
+}
+@media (min-width:1000px){
+  .image1{height:800px; width:60%; order:1;}
+  .image2{height:800px; width:20%; order:0;}
+  .image3{height:800px;width:20%;order:2;}
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+  <div class="image image1">
+  </div>
+  <div class="image image2">
+  </div>
+  <div class="image image3">
+  </div>
+  <!-- <div class="image image4">
+  </div>
+  <div class="image image5">
+  </div>
+  <div class="image image6">
+  </div> -->
+</div>
+</body>

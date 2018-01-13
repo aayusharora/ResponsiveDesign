@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Shifter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box{
+            width:100%;
+        }
+        .box1{
+            background-color: blue;
+            height:200px;
+        }
+        .box2{
+            background-color: dodgerblue;
+            height:200px;
+        }
+        .box3{
+            background-color: skyblue;
+            height: 320px;
+        }
+        @media (min-width:780px){
+            .big-box{
+                display:flex;
+            }
+            .box{
+                height:500px;
+            }
+            .box1{
+                width:15%;
+            }
+            .box2,.box3{
+                height: 250px;
+                width:45%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="big-box">
+    <div class="box box1"></div>
+    <div class="box">
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+</div>
+</body>
+</html>

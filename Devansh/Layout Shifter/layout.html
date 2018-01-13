@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #full
+    {
+        margin:0 auto;
+        width:100%;
+        height:800px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #taskbar
+    {
+        background-color:aqua;
+        width:100%;
+        height:200px;
+    }
+    #blocks
+    {
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+    }
+    .block
+    {
+        width:100%;
+        height:300px;
+        margin:0 auto;
+    }
+    .block1
+    {
+        background-color:tan;
+
+    }
+
+    .block2
+    {
+        background-color:red;
+    }
+    @media (min-width:700px)
+    {
+        #taskbar
+        {
+            height:100%;
+            width:33%;
+        }
+        #blocks
+        {}
+    }
+
+
+</style>
+<body>
+<div id="full">
+<div id="taskbar">
+</div>
+<div id="blocks">
+    <div class="block block1"></div>
+    <div class="block block2"></div>
+</div>
+</div>
+
+</body>
+</html>

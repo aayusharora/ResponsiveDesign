@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #outer
+    {
+        display:flex;
+        flex-wrap:wrap;
+        margin:0 auto;
+    }
+
+    .box
+    {
+        width:100%;
+        height:200px;
+
+    }
+    .box1
+    {
+        background-color:aqua;
+    }
+    .box2
+    {
+        background-color:red;
+    }
+    .box3
+    {
+        background-color:darkblue;
+    }
+    .box4
+    {
+        background-color:sandybrown;
+    }
+    .box5
+    {
+        background-color:magenta;
+    }
+
+
+    /*@media (min-width:700px) and (max-width:900px)*/
+    /*{*/
+        /*.box1*/
+        /*{*/
+            /*width:100%;*/
+        /*}*/
+        /*.box2,.box3,.box4,.box5*/
+        /*{*/
+            /*width:50%;*/
+        /*}*/
+
+    /*}*/
+    @media (min-width:900px)
+    {
+
+        .bar
+        {
+            width:30%;
+            height:100%;
+        }
+
+    }
+
+</style>
+<body>
+<div id="outer">
+    <div class="bar"><div class="box box1"></div></div>
+    <div class="boxes"><div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    </div>
+    <!--<div class="box box6"></div>-->
+
+</div>
+</body>
+</html>

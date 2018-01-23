@@ -1,0 +1,53 @@
+<!-- /* new media query */ -->
+
+<!DOCTYPE=html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+	<head><title>flex layout</title>
+	<style>
+		.giant{
+			display:flex;
+			justify-content:center;
+			flex-wrap:wrap;
+		}
+		.in{
+			width:200px;
+			height:200px;
+			
+		}
+		.in1{
+			background-color:#e65c6f;
+			order:5;
+		}
+		.in2{
+			background-color:#f98d77;order:3;
+		}
+		.in3{
+			background-color:yellow;order:1;
+		}
+		.in4{
+			background-color:#ffcb69;order:0;
+		}
+		.in5{
+			background-color:#00b8ff;order:2;
+		}
+		.in6{
+			background-color:#ff00e7;order:4;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="giant">
+		<div class="in in1"> 1 </div>
+		<div class="in in2"> 2 </div>
+		<div class="in in3"> 3</div>
+		<div class="in in4"> 4</div>
+		<div class="in in5"> 5</div>
+		<div class="in in6"> 6</div>
+	</div>
+</body>
+</html>

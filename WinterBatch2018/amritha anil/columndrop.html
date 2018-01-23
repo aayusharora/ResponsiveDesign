@@ -1,0 +1,123 @@
+<!-- mostly fluid -->
+
+<docytype=html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+
+	<style>
+	*{
+		box-sizing:border-box;
+	}
+		.giant{
+			
+			width:250px;
+			height:1200px;
+			flex-wrap:wrap;
+			display:flex;
+			padding:0px;
+			margin:auto;
+			justify-content:center;
+			position:relative;
+
+		}
+		.in{
+			width:250px;
+			height:400px;
+			position:relative;
+			display:block;
+			margin:0px;
+		}
+		.in0{
+			background-color:#11487a;
+			
+		}
+		.in1{
+			background-color:#236494;
+		}
+		.in2{
+			background-color:#5a93c7;
+		}
+		
+
+		@media screen and (min-width:500px) and (max-width:800px)
+		{
+			.giant{
+				width:800px;
+				height:500px;
+				
+				margin:auto;
+			}
+			.in{
+				height:400px;
+				display:inline-block;
+			}
+			.in0{
+				
+				width:60%;
+				order:1;
+			
+			}
+			.in1{
+				order:0;
+				width:40%;
+				
+			}
+			.in2{
+				order:2;
+				width:100%;
+				height:200px;
+			}
+
+		}
+
+		@media screen and (min-width:800px)
+		{
+			.giant{
+				width:900px;
+				margin:auto;
+				height:500px;
+
+			}
+			.in{
+				height:400px;
+				display:inline-block;
+				position:relative;
+			}
+			.in0{
+				
+				width:60%;
+				order:2;
+			
+			}
+			.in1{
+				order:1;
+				width:20%;
+				
+			}
+			.in2{
+				order:3;
+				width:20%;
+				
+			}
+
+		}
+
+	</style>
+
+	<title>column drop
+	</title>
+
+</head>
+<body>
+	<div class="giant">
+		
+		<div  class="in in0"></div>
+		<div class="in in1"></div>
+		<div class="in in2"></div>
+		
+
+	</div>
+</body>
+</html>

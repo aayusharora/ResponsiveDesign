@@ -1,0 +1,109 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+@media screen and (min-width:1183px) {
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .box1{
+        background-color: deepskyblue;
+        height: 758px;
+        width: 25%;
+        order: 1;
+    }
+    .box2{
+        background-color: midnightblue;
+        height: 758px;
+        width: 50%;
+        order: 2;
+    }
+    .box3{
+        background-color: slategray;
+        height: 758px;
+        width: 25%;
+        order: 3;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1183px){
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .box1{
+        background-color: deepskyblue;
+        height: 758px;
+        width: 33.333%;
+        order: 1;
+    }
+    .box2{
+        background-color: midnightblue;
+        height: 758px;
+        width: 66.666%;
+        order: 2;
+    }
+    .box3{
+        background-color: slategray;
+        height: 250px;
+        width: 100%;
+        order: 3;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:768px){
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .box1{
+        background-color: deepskyblue;
+        height: 400px;
+        width: 100%;
+        order: 2;
+    }
+    .box2{
+        background-color: midnightblue;
+        height: 400px;
+        width: 100%;
+        order: 1;
+    }
+    .box3{
+        background-color: slategray;
+        height: 400px;
+        width: 100%;
+        order: 3;
+    }
+}
+
+@media screen and (max-width:375px){
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .box1{
+        background-color: deepskyblue;
+        height: 330px;
+        width: 100%;
+        order: 2;
+    }
+    .box2{
+        background-color: midnightblue;
+        height: 667px;
+        width: 100%;
+        order: 1;
+    }
+    .box3{
+        background-color: slategray;
+        height: 330px;
+        width: 100%;
+        order: 3;
+    }
+}

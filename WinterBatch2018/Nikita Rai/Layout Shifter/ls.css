@@ -1,0 +1,69 @@
+.big-box 
+      {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+.box 
+      {
+        width: 100%;
+        min-height: 150px;
+      }
+
+.box0 
+      {
+        background: blue;
+      }
+
+.box1 
+      {
+        background: lightblue;
+      }
+
+.box2 
+      {
+        background: green;
+      }
+
+.box3 
+      {
+        background: red;
+      }
+
+@media screen and (min-width:500px) 
+      {
+.box0
+      {
+        width: 25%;
+      }
+ #inner-box
+      {
+        width: 75%;
+      }
+      } 
+
+@media screen and (min-width:800px) {
+.big-box
+      {
+    
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+.box0
+      {
+        width:25%;
+      }
+     
+#inner-box
+      {
+        width:50%;
+      }
+   
+.box3
+      {
+        width: 25%;
+      }
+      }

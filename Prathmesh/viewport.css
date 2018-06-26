@@ -1,0 +1,74 @@
+/*.color-text {*/
+    /*color: blue;*/
+/*}*/
+
+/*@media screen and (max-width: 600px){*/
+    /*.color-text {*/
+        /*color: red;*/
+    /*}*/
+/*}*/
+
+/*.box {*/
+    /*width: 32%;*/
+    /*height: 200px;*/
+    /*border: 1px dashed red;*/
+    /*display: inline-block;*/
+/*}*/
+
+/*@media screen and (max-width: 700px) {*/
+    /*.box {*/
+        /*width: 49%;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 484px) {*/
+    /*.box {*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33%;
+    height: 200px;
+}
+
+.box1 {
+    background-color: palevioletred;
+}
+
+.box2 {
+    background-color: indianred;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box4 {
+    background-color: gold;
+}
+
+.box5 {
+    background-color: greenyellow;
+}
+
+.box6 {
+    background-color: orange;
+}
+
+.box7 {
+    background-color: blue;
+}
+
+.box8 {
+    background-color: rosybrown;
+}
+
+.box9 {
+    background-color: goldenrod;
+}

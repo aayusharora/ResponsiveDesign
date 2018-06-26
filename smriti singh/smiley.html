@@ -1,0 +1,60 @@
+<style type="text/css">
+div#wrapper {
+    width: 50%;
+    padding: 60px;
+    margin 0 auto;
+
+}
+.smiley {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: 50px;
+
+}
+.smiley .eye {
+    height: 12px;
+    width: 12px;
+    border-radius: 10px;
+    position: absolute;
+}
+.left-eye {
+    top: 20px;
+    left: 30px;
+}
+.right-eye {
+    top: 20px;
+    right: 30px;
+}
+.mouth {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 25px;
+    background-color:white;
+    position: absolute;
+    width: 50px;
+    left: 25px;
+    top: 60px;
+
+
+
+}
+/*you can programmatically set the colors or even background images of these here */
+div#wrapper, .smiley div {
+    background-color: blue;
+   /* display:inline_block       */
+}
+.smiley {
+    background-color: lime;
+
+}
+</style>
+<body>
+<div id="wrapper">
+    <div class="smiley">
+        <div class="left-eye eye">&nbsp;</div>
+        <div class="right-eye eye">&nbsp;</div>
+        <div class="mouth">&nbsp;</div>
+    </div>
+</div>
+</body>

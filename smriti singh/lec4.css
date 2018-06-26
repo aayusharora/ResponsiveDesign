@@ -1,0 +1,27 @@
+.color-text{
+         color: blue;
+}
+@media screen and (max-width: 600px){
+      .color-text{
+                      color: red;
+                }
+}
+.box{
+
+    width: 32%;
+    height:200px;
+    border: 1px dashed red;
+    display: inline-block;
+
+}
+@media screen and (max-width: 700px){
+    .box{
+        width: 49%
+    }
+
+}
+@media screen and (max-width: 500px )
+{
+    .box(
+     width: 100%;)
+}

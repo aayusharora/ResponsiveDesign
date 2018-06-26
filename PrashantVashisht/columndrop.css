@@ -1,0 +1,47 @@
+.box{
+    width:100%;
+    height:50px;
+
+}
+.container{
+    width:400px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.one{
+    background-color: orangered;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: lightgreen;
+}
+.four{
+    background-color: blanchedalmond;
+}
+.five{
+    background-color: royalblue;
+}
+@media screen and (min-width: 600px){
+    .one{
+        width: 80%;
+        order:2;
+    }
+    .two{
+        width:20%;
+        order:1;
+    }
+    .three,.four,.five{
+        width:100%;
+    }
+    .three{
+        order:3
+    }
+    .four{
+        order:4;
+    }
+    .five{
+        order:5;
+    }
+}

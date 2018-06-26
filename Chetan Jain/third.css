@@ -1,0 +1,136 @@
+.container{
+    height:842px;
+    width:595px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+}
+a{
+    text-decoration:none;
+}
+.box{
+    width:100%;
+    height:25%;
+    display:flex;
+    flex-direction:row;
+}
+.boxess{
+    height:100%;
+    width:35%;
+     border-style: solid;
+    border-width: 0 0 0 10px;
+    border-color:#99b3e6;
+}
+.box11{
+    background-color: #0000C0  ;
+}
+.boxes{
+    height:90.5%;
+    width:65%;
+    border:10px solid #99b3e6;
+    background-color: #c9d7e8;
+}
+#image{
+    margin:20% 5% 5% 5%;
+    width:90%;
+    height:75%;
+    object-fit: cover;
+    border-radius:50% 50% 50% 50%;
+    border:4px solid white;
+}
+.box12{
+    display:flex;
+    background-color: #c9d7e8;
+}
+.text121{
+    height:100%;
+    width:60%;
+}
+p{
+    text-align:left;
+    margin-top:5%;
+    margin-left:5%;
+    color:white;
+}
+.boxes li,tr,.boxes p{
+    color:#414a4c;
+}
+.boxess li{
+    color:white;
+    margin:1%;
+}
+.boxes h1{
+    font-size:1.8em;
+    text-align:center;
+    margin-top:2%;
+    margin-bottom:0;
+    color:blue;
+}
+.boxess h1{
+    font-size:1.8em;
+    text-align:center;
+    margin-top:2%;
+    margin-bottom:0;
+    color:white;
+    background-color: ;
+}
+.text121 h1{
+    font-size:2.4em;
+    text-align:center;
+    margin-top:20%;
+    margin-bottom:0;
+    color:#000038 ;
+}
+.text122{
+    display:flex;
+    flex-wrap:wrap;
+    color:blue;
+}
+.text122 li{
+   margin-bottom:30%;
+    line-height: 20px;
+}
+.box31 li, .box41 li{
+    margin-bottom:5%;
+}
+.box32 ul{
+  display:flex;
+    flex-wrap:wrap;
+}
+.box32 li{
+    margin:3% 3%;
+}
+.box21{
+    background-color: #0000C0;
+    margin:0;
+    text-align:left;
+}
+.box21 p{
+    font-size:0.8em;
+}
+.box22{
+    background-color: #c9d7e8;
+}
+.box31{
+    background-color: #0000C0;
+}
+.box32{
+    background-color: #c9d7e8;
+}
+.box41{
+    background-color: #0000C0;
+}
+.box42 tr{
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:7%;
+}.box42 h3{
+    margin:0;
+ }
+.fa {
+    text-decoration: none;
+    border-radius: 50%;
+}
+b{
+   color:  #0000f0 ;
+}

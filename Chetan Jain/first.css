@@ -1,0 +1,159 @@
+
+body {
+    height:620px;
+    width:100%;
+}
+.image-all{
+
+    width:100%;
+    height:720px;
+    display:flex;
+    position: absolute;
+    order:0;
+}
+.image1{
+    height:100%;
+    width:40%;
+    background-color: black;
+}
+.image2{
+    height:100%;
+    width:60%;
+}
+.my-img{
+    width:100%;
+    height:620px;
+}
+.text{
+    height:700px;
+    width:70%;
+    position:absolute;
+    order:1;
+}
+.first-text{
+    height:5%;
+    width:25%;
+    margin:2% 9%;
+
+}
+.first-text h1{
+    font-size: 100%;
+    color:white;
+}
+.second-text{
+    height:10%;
+    width:70%;
+    margin:1% 9%;
+
+}
+.second-text h1 {
+    height:100%;
+    font-size: 60px;
+    color:white;
+}
+
+
+.third-text{
+    height:15%;
+    width:80%;
+    margin: 2% 9%;
+}
+.third-text p{
+    font-size:100%;
+    color:white;
+}
+.buttons{
+    height:6%;
+    margin:2% 9%;
+    width:60%;
+    display:flex;
+}
+
+.button2{
+    width:47%;
+    height:100%;
+    margin:0 3%;
+}
+.button2 button{
+    height:100%;
+    width:100%;
+    border:1px solid white;
+    border-radius: 40%;
+
+   color: white;
+    background-color: black;
+}
+.button2 button:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+.button1{
+    width:47%;
+    height:100%;
+    margin:0 3%;
+}
+.button1 button{
+    height:100%;
+    width:100%;
+    border:1px solid white;
+    border-radius: 40%;
+    color: white;
+    background-color: black;
+}
+.button1 button:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+.foot{
+    width:70%;
+    height:30%;
+    margin:14% 5% 2% 9%;
+    display:flex;
+}
+.foot1{
+    width:50%;
+    height:100%;
+}
+.foot1 p{
+    font-size:25px;
+    margin-top: 30%;
+    color:white;
+}
+.foot2{
+    width:50%;
+    height:100%;
+    color:white;
+}
+.foot2 h3{
+    margin: 30% 0 0 25%;
+    font-size:25px;
+}
+.foot2 ul{
+    display: inline-flex;
+    margin:0 0 0 15px;
+    font-size:25px;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/*@media screen and (min-height:600px) {
+    .image1
+    {
+        height:0;
+        width:0;
+    }
+    .image2{
+        width:100%;
+    }
+
+}

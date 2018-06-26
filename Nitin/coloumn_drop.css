@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+max-width: 920px;
+}
+.box{
+    height: 200px;
+    width: 100%;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: pink;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: cyan;
+}
+.box5{
+    background-color: orange;
+}
+
+
+@media screen and (min-width:620px ){
+   .box1{
+    order:2;
+    width: 80%;
+   }
+   .box2{
+    order:1;
+   width:20%;
+   }
+   .box3,.box4,.box5{
+    width:100%;
+   }
+   .box3{
+    order:3;
+
+
+   }
+   .box4{
+    order:4;
+   }
+   .box5{
+    order:5;
+   }
+}
+
+@media screen and (min-width:780px ){
+.box1{
+    order:2;
+    width: 50%
+   }
+   .box2{
+    order:1;
+   width:25%;
+   }
+   .box3{
+    order:3;
+    width: 25%
+
+   }
+   .box4,.box5{
+    width:100%;
+   }
+
+
+
+
+   .box4{
+    order:4;
+   }
+   .box5{
+    order:5;
+   }
+
+
+}
+@media screen and (min-width: 920px){
+.container{
+    margin: 0 auto;
+}

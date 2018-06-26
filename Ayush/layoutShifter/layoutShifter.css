@@ -1,0 +1,151 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0px;
+    transition: 0.2s ease;
+    /*margin: 0;*/
+}
+
+img {
+    max-width: 100%;
+}
+
+.text {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inline {
+    width: 100%;
+}
+
+.main-banner {
+    height: 60px;
+    /*margin: 0;*/
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+}
+
+.color-sep {
+    background-color: #FF9800;
+    height: 5px;
+    width: 100%;
+}
+
+.content {
+    padding: 5%;
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    /*height: 300px;*/
+}
+
+.wider-screen {
+    width: 100%;
+}
+
+.about, .writings, .presentations {
+    height: 95px;
+    border-top: 1px solid black;
+    width: 100%;
+    background-color: rgb(150, 150, 150);
+    padding-left: 4%;
+}
+
+.presentations {
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    height: 130px;
+    width: 100%;
+    vertical-align: baseline;
+    background-color: rgb(200, 200, 200);
+}
+
+@media screen and (min-width: 500px) {
+    .content {
+        padding: 3% 5% 0px;
+    }
+}
+
+@media screen and (min-width: 832px) {
+
+    .main-container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .inline {
+        display: inline-block;
+        width: 80%;
+    }
+
+    .wider-screen {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .main-banner {
+        display: inline-block;
+        transition: 0.15s ease;
+        /*height: 817px;*/
+        height: inherit;
+        width: 20%;
+    }
+
+    .color-sep {
+        width: 0px;
+        display: inline-block;
+        height: 0px;
+    }
+
+    .content {
+        padding: 5%;
+        width: 100%;
+        order: 4;
+        transition: 0.15s ease;
+        /*height: 300px;*/
+    }
+
+    .wider-screen {
+        width: 100%;
+    }
+
+    .about{
+        height: 46px;
+        order: 1;
+        border-top: 0px;
+        border-bottom: 1px dashed green;
+        width: 20%;
+        transition: 0.15s ease;
+        padding-left: 4%;
+        border-left: 1px solid black; 
+    }
+
+    .writings {
+        height: 46px;
+        transition: 0.15s ease;
+        border-top: 0px;
+        order: 2;
+        border-bottom: 1px dashed green;
+        width: 20%;
+        padding-left: 4%;
+        border-left: 1px solid black; 
+    }
+
+    .presentations {
+        height: 46px;
+        order: 3;
+        border-top: 0px;
+        transition: 0.15s ease;
+        border-bottom: 1px dashed green;
+        width: 60%;
+        padding-left: 4%;
+        border-left: 1px solid black; 
+    }
+}

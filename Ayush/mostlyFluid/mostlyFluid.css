@@ -1,0 +1,137 @@
+.container {
+	font-size: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+}
+
+.box {
+	width: 100%;
+	height: 30px;
+}
+
+.box1 {
+	background-color: rgb(40, 40, 40);
+}
+
+.box2 {
+	background-color: rgb(100, 100, 100);
+}
+
+.box3 {
+	background-color: rgb(150, 150, 150);
+}
+
+.box4 {
+	background-color: rgb(200, 200, 200);
+}
+
+.box5 {
+	background-color: rgb(250, 250, 250);
+}
+
+@media screen and (min-width: 484px) {
+	.box {
+		height: 30px;
+	}
+
+	.box1 {
+		background-color: rgb(40, 40, 40);
+		width: 100%;
+		height: 60px;
+	}
+
+	.box2 {
+		background-color: rgb(100, 100, 100);
+		width: 40%;
+	}
+
+	.box3 {
+		background-color: rgb(150, 150, 150);
+		width: 60%;
+	}
+
+	.box4 {
+		background-color: rgb(200, 200, 200);
+		width: 100%;
+	}
+
+	.box5 {
+		background-color: rgb(250, 250, 250);
+		width: 100%;
+		}
+}
+
+@media screen and (min-width: 700px) {
+	.box {
+		height: 30px;
+	}
+
+	.box1 {
+		background-color: rgb(40, 40, 40);
+		width: 60%;
+		height: 60px;
+	}
+
+	.box2 {
+		background-color: rgb(100, 100, 100);
+		width: 40%;
+		height: 60px;
+	}
+
+	.box3 {
+		background-color: rgb(150, 150, 150);
+		width: 33.33%;
+	}
+
+	.box4 {
+		background-color: rgb(200, 200, 200);
+		width: 33.33%;
+	}
+
+	.box5 {
+		background-color: rgb(250, 250, 250);
+		width: 33.33%;
+	}
+
+	.container {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.box {
+		height: 30px;
+	}
+
+	.box1 {
+		background-color: rgb(40, 40, 40);
+		width: 60%;
+		height: 60px;
+	}
+
+	.box2 {
+		background-color: rgb(100, 100, 100);
+		width: 40%;
+		height: 60px;
+	}
+
+	.box3 {
+		background-color: rgb(150, 150, 150);
+		width: 33.33%;
+	}
+
+	.box4 {
+		background-color: rgb(200, 200, 200);
+		width: 33.33%;
+	}
+
+	.box5 {
+		background-color: rgb(250, 250, 250);
+		width: 33.33%;
+	}
+
+	.container {
+		margin: 0 auto;
+	}
+}

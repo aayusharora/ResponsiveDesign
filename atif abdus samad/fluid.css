@@ -1,0 +1,118 @@
+
+.box{
+    width: 100%;
+    height: 100px;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: aqua;
+}
+
+.box4{
+    background-color: darkorange;
+}
+
+.box5{
+    background-color: purple;
+}
+
+.box6{
+    background-color: brown;
+}
+
+.box7{
+    background-color: yellow;
+}
+
+.box8{
+    background-color: chartreuse;
+}
+
+.box9{
+    background-color: coral;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:700px ;
+    margin: 0 auto;
+}
+
+
+/* this part is not needed as max- width of container is already defined after which it will be in center*/
+@media screen and (min-width: 700px){
+
+    /* this part is not needed as max- width of container is already defined after which it will be in center*/
+    /*.container{*/
+        /*width: 80%;*/
+        /*margin: 0 auto;*/
+    /*}*/
+
+    .box{
+        width: 49%;
+        height: 80px;
+    }
+
+    .box1{
+        width: 59%;
+        height: 100px;
+    }
+
+    .box2{
+        width: 39%;
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .box{
+        width: 49%;
+        height: 80px;
+    }
+
+    .box1{
+        width: 59%;
+        height: 100px;
+    }
+
+    .box2{
+        width: 39%;
+        height: 100px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+
+    .box{
+        width: 49%;
+        height: 80px;
+    }
+
+    .box1{
+        width: 100%;
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .box{
+        width: 100%;
+        height: 200px;
+    }
+
+}

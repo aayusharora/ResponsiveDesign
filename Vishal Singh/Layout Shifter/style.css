@@ -1,0 +1,62 @@
+html { height: 100%; }
+body {height: 100%;
+margin: 0px}
+main{
+    height: 100%;
+}
+.flex-container{
+    margin: 0px auto;
+    width: 900px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainbox1{
+    background-color: lightgrey;
+    height: 100%;
+    width: 20%
+}
+
+.mainbox2{
+    height: 100%;
+    width: 80%
+}
+
+.subbox1{
+    height: 50%;
+    background-color: red;
+    width: 100%
+}
+
+.subbox2{
+    height: 50%;
+    background-color: olivedrab;
+    width: 100%
+}
+
+@media screen and (max-width: 900px){
+    .flex-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    html { height: auto; }
+    body {height: auto;
+        }
+    main{
+        height: auto;
+    }
+
+
+    .mainbox1{
+        width: 100%;
+        height: 300px;
+    }
+    .mainbox2{
+        width: 100%;
+        height: 1000px;
+    }
+}

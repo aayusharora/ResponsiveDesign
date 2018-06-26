@@ -1,0 +1,52 @@
+.container{
+  display : flex ;
+  flex-wrap : wrap ;
+}
+
+.box{
+ width : 100% ;
+ height : 200px ;
+}
+
+.box1{
+ background-color: red ;
+}
+.box2{
+  background-color : orange ;
+}
+.box3{
+  background-color : blue;
+}
+.box4{
+ background-color : yellow ;
+}
+.box5{
+ background-color : pink ; 
+}
+
+@media screen and (min-width: 600px){
+	.box{
+		width : 50% ;
+	}
+	.box1{
+		width : 100%;
+	}
+}
+
+@media screen and (min-width: 720px){
+   .box{
+   	width : 33% ;
+   }
+   .box1{
+      width : 60% ;
+   }
+   .box2{
+      width : 40% ;
+   }
+}
+
+@media screen and (min-width: 990px){
+   .container{
+   	 margin : 25px auto  ;
+   }
+}

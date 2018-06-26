@@ -1,0 +1,88 @@
+.container{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ }
+ .box{
+ 	width: 200px;
+  height: 200px;
+}.box1 {	background-color: red;
+
+}
+.box2{
+	background-color: blue;
+
+}
+.box3{
+	background-color: green;
+}
+.box4{
+	background-color: black;
+
+}.box5 {
+	background-color: navy;
+}.box6{
+	background-color: indianred;
+
+} .box7 {
+	background-color: grey;
+}
+.box8 {
+	background-color: yellow;
+
+}.box9 {
+	background-color: pink;
+}
+@media screen and (min-width: 500px)
+{
+	.box {width: 100%;}
+}
+@media screen and (min-width:501px) {
+	.box1 {
+		width:20%;
+		order: 2;
+	}
+	.box2{
+		width: 80%;
+		order: 1;
+	}
+	.box3, .box4,.box5,.box6,.box7,.box8,.box9{
+		width: 100%;
+	}
+	.box3 {
+		order: 3;
+	}
+	.box4 {
+		order: 4;
+	} .box5 { order: 5; }
+	.box5 {
+		order: 5;
+	}
+	.box6 {
+		order: 6;
+	}
+	.box7 {
+		order: 7;
+	}
+	.box8 {
+		order: 8;
+	}
+	.box9{
+		order:9; 
+	}
+
+}
+@media screen and (min-width:801px )
+{ .box4, .box5, .box6, .box7, .box8, .box8 {
+	width: 100%;
+}
+	.box1 {
+		width: 20%;
+	}
+	.box2 {
+		width: 60%;
+	}
+	.box3 {
+		width: 20%;
+	}
+
+}

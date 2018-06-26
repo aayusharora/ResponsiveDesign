@@ -1,0 +1,65 @@
+.box{
+    width: 100%;
+    height: 200px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+.big
+{
+    width: 90%;
+    height: 100%;
+}
+.box1{
+    background-color: darkblue;
+    height: 15%;
+
+}
+.box2{
+    background-color: darkslateblue;
+    height: 55%;
+}
+.box3{
+    background-color: lightskyblue;
+    height: 30%;
+}
+
+@media screen and (min-width: 400px) {
+    .box1{
+        height: 20%;
+    }
+    .box2{
+        height: 45%;
+    }
+    .box3{
+        height:35% ;
+    }
+    .big{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 600px) {
+    .box1{
+        height: 100%;
+        width: 10%;
+        float: left;;
+    }
+    .box2{
+        height: 50%;
+        width: 90%
+    }
+    .box3 {
+        height: 50%;
+        width: 90%;
+    }
+    .big{
+        width: 90%;
+    }
+
+
+}

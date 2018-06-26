@@ -1,0 +1,60 @@
+
+.card {
+    height: 700px;
+    width: 700px;
+    overflow: auto;
+    max-width: 100%;
+    display: block;
+    margin: 50px auto;
+    box-shadow: 5px 10px #cecdc1;
+    background-color: beige;
+}
+
+.card:hover {
+    box-shadow: 10px 20px #cecdc1;
+    transition: .6s;
+}
+
+
+.image_container {
+
+    display: block;
+    padding: 2px;
+    /*overflow:auto;*/
+    max-width: 100%;
+    max-height: 50%;
+    height: 50%;
+
+}
+.card_des{
+    overflow:auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    padding: 2px;
+}
+img {
+    /*overflow: auto;*/
+    max-width: 95%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:95%;
+    padding: 2px;
+}
+td
+{
+    padding:0 15px 0 15px;
+    border-bottom: solid thin lightsalmon;
+
+
+}
+table {
+
+    max-width: 100%;
+    max-height: 100%;
+
+
+}

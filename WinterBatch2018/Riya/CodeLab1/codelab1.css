@@ -1,0 +1,32 @@
+.outer{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.inner{
+  height: 100px;
+  width:100%;
+}
+.inner1{
+  background-color: red;
+}
+.inner2{
+  background-color: blue;
+}
+.inner3{
+  background-color: aqua;
+}
+.inner4{
+  background-color: yellow;
+}
+.inner5{
+  background-color: orange;
+}
+@media (min-width:480px) and (max-width:720px){
+  .inner{
+    width: 50%;
+  }
+  .inner1{
+    width:100%;
+  }
+}

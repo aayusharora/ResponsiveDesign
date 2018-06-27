@@ -1,0 +1,45 @@
+.bigbox
+{
+	max-width: 1024px;
+	margin:0 auto;
+}
+
+.bigbox>.box
+{
+	
+	height: 200px;
+	width: 100%;
+}
+.box1{
+	background-color: red;
+}
+.box2{
+	background-color: green;
+}
+.box3{
+	background-color: blue;
+}
+@media(min-width: 600px) and (max-width: 900px){
+	.bigbox{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.bigbox>.box2{
+		width: 40%;
+		order: 1;
+	}
+	.bigbox>.box1{
+		width:60%;
+		order: 2;
+	}
+	.bigbox>.box3{
+		order: 3;
+	}
+}
+@media(min-width:751px){
+	.bigbox{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.
+}

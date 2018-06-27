@@ -1,0 +1,88 @@
+<!-- ANSHUL GAUTAM
+	 IIIT-D
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		LAYOUT SHIFTER
+	</title>
+	<style>
+		.container {					/*parent*/
+			display: flex;
+			flex-wrap: wrap;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+		.box {
+			height: 242px;
+			width: 100%;
+			}
+		.box1 {
+			background-color: navy;
+			color: lavender;
+			max-height: 700px;
+			overflow-y: scroll;
+		}
+		
+		.box3 {
+			background-color: skyblue;
+			font-size: 20px;
+		}
+		.box4 {
+			background-color: yellow;
+		}
+		@media screen and (min-width: 600px) {
+			.container {
+				height: 700px;
+			}
+			.box1 {
+				height: 100%;
+				width: 20%;
+			}
+			.box2 {
+				width: 80%;
+				height: 100%;
+			}
+			.box3 {
+				height: 50%;
+			}
+			.box4 {
+				height: 50%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box box1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div class="box box2">
+			<div class="box box3"> <strong> UKRAINE </strong></div>
+			<div class="box box4"></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.box{
+	width: 200px;
+	height: 100px;
+}
+.box1{
+	background-color: red;
+}
+.box2{
+	background-color: green;
+}
+.box3{
+	background-color: blue;
+}
+.box4{
+	background-color: lightgreen;
+
+}
+.box5{
+	background-color: yellow;
+}
+.box6{
+	background-color: blue;
+}
+	
+	
+@media screen and (min-width:600px ){
+	
+	.box1{
+		width: 60%;
+	}
+	.box2{
+		width: 40%;
+	}
+	.box3,.box4,.box5,.box6{
+		width: 50%;
+	}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout-shifter</title>
+    <style>
+        .container{
+            max-width: 900px;
+            display: flex;
+            height: 200px;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+        .box{
+            height: 200px;
+            width: 100%;
+        }
+        .box1{
+            background-color: chocolate;
+            max-height: 400px;
+            overflow-y: scroll;
+        }
+
+        .box3{
+            background-color: aquamarine;
+        }
+        .box4{
+            background-color: green;
+        }
+
+        @media screen and (min-width: 600px) {
+            .box1{
+                width: 40%;
+                height: 400px;
+            }
+            .box2{
+                width: 60%;
+
+            }
+
+        }
+
+
+        /*@media screen and (min-width: 800px) {
+          .box1{
+
+          }
+        }*/
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box box1"></div>
+    <div class="box box2">
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</div>
+
+
+</body>
+</html>

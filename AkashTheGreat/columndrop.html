@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style >
+	.container
+	{
+
+	display: flex;
+	flex-wrap: wrap;
+
+	}
+
+	.box
+	{
+		height: 200px;
+		width: 100%;
+	}
+
+
+.box1
+{
+	width: 100%;
+	background-color:darkorchid;
+	order:1;
+}
+
+.box2
+{
+	background-color: gold;
+	order: 2;
+}
+
+.box3
+{
+	background-color: red;
+	order: 3;
+
+}
+
+
+
+@media screen and (min-width:600px)
+{
+	.container
+	{
+		height: 100%;
+	}
+	.box1
+	{
+		width:60%;
+		order:2;
+	}
+	.box2
+	{
+		width:40%;
+		order: 1;
+	}
+
+	.box3
+	{
+		width: 100%;
+		order:3;
+	}
+
+}
+/*no need to change the order again*/
+@media screen and (min-width:800px)
+{
+	.box1
+	{
+		width:60%;
+
+	}
+	.box2
+	{
+		width:20%;
+		
+
+		
+	}
+
+	.box3
+	{
+		width: 20%;
+			
+	}
+
+}
+
+
+	</style>
+	<title> COLUMN DROP</title>
+</head>
+<body>
+
+<div class="container">
+	
+	<div class="box box1"></div>
+	<div class="box box2"></div>
+	<div class="box box3"></div>
+
+</div>
+
+
+
+</body>
+</html>

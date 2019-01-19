@@ -1,0 +1,100 @@
+.inner{
+    /* display: inline; */
+width: 70%;
+/* background-color:rgb(230, 233, 224); */
+height:700px;
+margin-left:15%;
+padding: 0;
+}
+
+.first{
+    background-color:blue;
+    width:60%;
+    height:60%; 
+}
+
+.second{
+    margin-left: 60%;       
+    display: inline-block;
+    background-color:skyblue;
+    width:40%;
+    height:60%;
+    margin-top: -420px;
+
+}
+
+.third{
+    background-color:aqua;
+    width:40%;
+    height:40%;
+}
+
+.fourth{
+    background-color:cornflowerblue;
+    width:30%;
+    height:280px;   
+    margin-top:-280px;
+    margin-left:40%
+}
+
+.fifth{
+    background-color:grey;
+    width:30%;
+    height:280px; 
+    margin-top:-280px;
+    margin-left:70%
+}
+
+
+@media(max-width:1250px){
+    .first{     width: 100%;
+    }
+
+    .second{
+        margin-top:0px; 
+        width: 50%;
+        margin-left:0px;
+        height: 40%;
+    }
+
+    .third{
+        width: 50%;
+        margin-top:0px; 
+        margin-top: -280px;
+        margin-left:50%;
+    }
+
+    .fourth{
+        width:50%;
+        margin: 0;
+    }
+    
+    .fifth{
+        width:50%;
+        margin-left:50%;
+    }
+}
+
+@media(max-width:950px){
+
+
+    .first{
+        width:85%;  
+    }
+     .second {    width:85%;  
+        
+    }
+    .third {
+        width:85%;  
+        margin:0; 
+    }
+    .fourth{
+        width:85%;  
+        
+    }
+     .fifth{
+        width:85%;  
+        margin:0;
+    }
+}
+

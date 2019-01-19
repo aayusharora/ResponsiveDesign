@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    border-style: double ;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* background: green; */
+    height: 1000PX;
+    width: 100vw; 
+}
+.container>aside{
+    width: 30%;
+    height: 100%;  
+    /* background: blue; */
+    background: #5CDB95;
+    order: 2;
+    
+}
+.container>main{
+    width: 70%;
+    height: 100%; 
+    order: 1;
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.dp{
+    padding-top: 1px;
+    width: 100%;
+    background:  #05386B;
+    height: 40%;
+
+}
+.dp>figure{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+    width: 60%;
+
+}
+.dp>figure>img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+.dp>figure>figcaption{
+    text-align: center;
+    color:#8ee4af;
+    font-size: larger;
+}
+
+.links{
+    align-content: center;
+    width: 100%;
+    height: 30%;
+    padding-left: 9%; 
+} 
+.thumbnail{
+    width: 60%;
+    padding-left: 17%;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* padding-right: 20%; */
+    margin-top: 20px;
+    height: 25%;
+}
+.thumbnail>img{
+    display: inline-block;
+    height: 100%;
+    margin-top: 7px;
+}
+.thumbnail>a{
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 2em;
+    position: relative;
+    left: 4em;
+    top: -2em;
+}
+
+.animations{
+    width: 100%;
+    /* background: black; */
+    height: 30%;
+    width: 100%;
+    /* background: black; */
+    height: 30%;
+}
+.animations>img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-style: groove;
+}
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 35%;
+}
+.projects{
+    width: 100%;
+    /* background: black; */
+    height: 35%;
+    /* color: white; */
+    padding-left: 35px;
+}
+.projects>h1{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.projects>ol li{
+    padding-left: 30px;
+    font-size: larger;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+}
+.skills
+{
+    width: 50%;
+    height: 100%;
+    /* background: pink;  */
+    padding-left: 35px;
+}
+.skills>h1{
+    display: flex;
+    height: 20%;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.extra{
+    width: 50%;
+    height: 100%;
+    /* background: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+    padding-left: 35px;
+}
+.extra>h1{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: -28px; */
+    /* width: 57px; */
+    padding-left: 10px;
+    height: 20%;
+}
+.extra > UL{
+    padding-bottom: 105px;
+    margin: 0px;
+}
+.extra> ul li{
+    font-family: inherit;
+    margin-top: 0px;
+    list-style-type: circle;
+    padding-left: 50px;
+    font-size: larger;
+    
+}
+
+
+.education>div{
+    display: inline-block;
+    width: 33%;
+    padding-left: 30px;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.education> ul li{
+    text-align: unset
+}
+.list{
+    font-size: larger;
+}
+ul li{
+     list-style-type: circle;
+
+}
+h1>img{
+    padding-top: 7px;
+    width: 30px;
+    height: 30px;
+}
+h1{
+    color: #05386B;
+}
+@media (max-width : 1102px)
+{
+    .container{
+        height: 3000px;
+        background: #5CDB95;
+    }
+    .container>aside{
+        order:1;
+        width: 100%;
+        height: 1000px;
+    }
+    
+
+.container>main {
+    width: 100%;
+    height: 2000px;
+    order: 1;
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+    } 
+    .links{
+        padding-left: 15%
+    }
+    .dp>figure {
+        width: 60%;
+        height: 60%;
+        margin: 0px;
+        margin-left: 20%;
+        margin-top: 11%;
+        margin-right: 20%;
+    }
+    .thumbnail {
+        width: 60%;
+        padding-left: 20%;
+        margin-left: 20%;
+        margin-top: 20px;
+        height: 25%;
+    }
+
+    .education{
+        height: 70vh;
+    }
+    .education>div{
+        height: 35vh;
+        width: 50%;
+    }
+    #class10{
+        margin-left: 20%;
+    }
+  
+    .dp>figure>img {
+        width: 100%;
+        margin-top: 8%;
+    }
+    .dp>figure>figcaption{
+        padding-left: 8px;
+    }
+    .box{
+        height: 80vh;
+    }
+    .skills,.extra{
+        height: 40vh;
+        width: 100%;
+    }
+    #a{
+        padding-left: 30%;
+        /* padding-right: 30%; */
+    }
+}

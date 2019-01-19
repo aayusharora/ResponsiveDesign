@@ -1,0 +1,49 @@
+
+#div5{
+    background-color: blueviolet;
+}
+#div3{
+    background-color: green;
+}
+#div4{
+    background-color:orangered;
+}
+#div2{
+    background-color: blue;
+}
+#div1{
+    background-color: red;
+}
+@media(max-width:480px){
+
+    #div5{
+        background-color: blueviolet;
+    }
+    #div3{
+        background-color: green;
+    }
+    #div4{
+        background-color:orangered;
+    }
+    #div2{
+        background-color: blue;
+    }
+    #div1{
+        background-color: red;
+    }
+}
+@media(min-width:481px) and (max-width:720px){
+    #div1{
+        background-color: red;
+        width: 100%;
+    }
+   
+   
+    .item1{
+        width: 50%;
+    }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+}

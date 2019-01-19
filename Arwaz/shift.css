@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+}
+.box1{
+    background: #1c4587;
+}
+.box3{
+    background: #3c78d8;
+}
+.box4{
+    background: #c9daf8;
+}
+.box1, .box3, .box4{
+    width: 100%;
+}
+.body{
+    margin: 0;
+}
+@media(min-width:600px){
+    .box1{
+        height: 20vh;
+        width: 20vw;
+    }
+    .box2{
+        width: 80vw;
+    }
+    .box3, .box4{
+        height: 50vh;
+    }
+
+}

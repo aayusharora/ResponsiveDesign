@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.top {
+    height: 2vh;
+    background: grey;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lightblue-grey {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.blue,.lightblue,.lightgrey {
+    width: 100%;
+}
+
+.blue {
+    background: #4040bf;
+    height: 12vh;
+}
+
+.lightblue {
+    background: #6161c5;
+    height: 65vh;
+}
+
+.lightgrey {
+    background: lightgray;
+    height: 100vh;
+    
+}
+
+@media screen and (min-width: 800px) {
+/*
+    .lightblue-grey {
+        width: 100%;
+    }
+*/
+
+    .blue {
+        height: 24vh;
+    }
+    
+    .lightblue {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .lightgrey {
+        width: 100%;
+        height: 50vh;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .parent {
+        justify-content: center;
+        
+    }
+    
+    .blue {
+        height: 98vh;
+        width: 10%;
+    }
+    
+    .lightblue-grey {
+        justify-content: center;
+        height: 98vh;
+        width: 80%
+    }
+    
+    .lightblue {
+        width: 100%;
+        height: 49vh;
+    }
+    
+    .lightgrey {
+        width: 100%;
+        height: 49vh;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .parent {
+        justify-content: center;
+        
+    }
+    
+    .blue {
+        height: 98vh;
+        width: 5%;
+    }
+    
+    .lightblue-grey {
+        justify-content: center;
+        height: 98vh;
+        width: 75%
+    }
+    
+    .lightblue {
+        width: 100%;
+        height: 49vh;
+    }
+    
+    .lightgrey {
+        width: 100%;
+        height: 49vh;
+    }
+}

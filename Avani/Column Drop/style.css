@@ -1,0 +1,113 @@
+.par
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box1
+{
+	background-color: #95a6c1;
+}
+
+.box2
+{
+	background-color: #debaef;
+}
+
+.box3
+{
+	background-color: #b3bc9e;
+}
+
+
+
+@media screen and (max-width: 768px) 
+{
+	.box1
+	{
+		height: 110vh;
+		width: 100%;
+	}
+	.box2
+	{
+		height: 50vh;
+		width: 100%;
+	}
+	.box3
+	{
+		height: 50vh;
+		width: 100%;
+	}
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+	.box1, .box2, .box3
+	{
+		height: 60vh;
+		width: 100%;
+	
+	}
+}
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px)
+{
+	.box1, .box2
+	{
+		height: 100vh;
+	}
+
+	.box1
+	{
+		width: 30%;
+		order:2;
+	}
+
+	.box2
+	{
+		width: 70%;
+		order: 1;
+	}
+
+	.box3
+	{
+		height: 40vh;
+		width: 100%;
+		order:3;
+	}
+}
+
+
+
+
+@media screen and (min-width: 1200px) 
+{
+	.box1
+	{
+		height: 100vh;
+		width: 50%;
+		order: 2;
+	
+	}
+	.box2
+	{
+		height: 100vh;
+		width: 25%;
+		order: 1;
+	}
+
+	.box3
+	{
+		height: 100vh;
+		width: 25%;
+		order: 3;
+
+	}
+}

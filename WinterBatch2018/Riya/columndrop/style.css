@@ -1,0 +1,46 @@
+.outer{
+  min-width: 10px;
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+}
+.inner{
+  width: 100%;
+  min-height: 300px;
+}
+.inner1{
+  background-color: darkblue;
+}
+.inner2{
+  background-color: royalblue;
+}
+.inner3{
+  background-color: lightblue;
+}
+@media (min-width:500px) and (max-width:720px){
+  .inner1{
+    width:70%;
+    order:1;
+  }
+  .inner2{
+    width:30%;
+    order:0;
+  }
+  .inner3{
+    order:3;
+  }
+}
+@media (min-width:720px){
+  .inner1{
+    width:50%;
+    order:1;
+  }
+  .inner2{
+    width:25%;
+    order:0;
+  }
+  .inner3{
+    width:25%;
+    order:3;
+  }
+}

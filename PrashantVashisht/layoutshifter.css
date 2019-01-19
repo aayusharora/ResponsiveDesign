@@ -1,0 +1,40 @@
+.box{
+    width:100%;
+    height:400px;
+
+}
+.box.main{
+    height:400px;
+}
+.container{
+    width:400px;
+    display:flex;
+    flex-flow: wrap;
+}
+.one{
+    background-color: orangered;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: lightgreen;
+}
+@media screen and (min-width: 600px){
+    .one{
+        width:10%;
+        height:400px;
+    }
+    .main{
+        width:90%;
+    }
+    .two,.three{
+        width:100%;
+        height:50%;
+    }
+}
+@media screen and (min-width: 720px){
+    .container{
+        margin:120px auto;
+    }
+}

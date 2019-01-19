@@ -1,0 +1,117 @@
+<!-- mostly fluid -->
+
+<docytype=html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+
+	<style>
+	*{
+		box-sizing:border-box;
+	}
+		.giant{
+
+			width:90%;
+			height:800px;
+			flex-wrap:wrap;
+			display:flex;
+			padding:0px;
+			justify-content:center;
+			position:relative;
+
+		}
+		.in{
+			width:90%;
+			height:100px;
+			position:relative;
+			display:block;
+			margin:0px;
+
+
+
+		}
+		.in0{
+			background-color:#11487a;
+			height:400px;
+		}
+		.in1{
+			background-color:#236494;
+		}
+		.in2{
+			background-color:#5a93c7;
+		}
+		.in3{
+			background-color:	#afcce1;
+		}
+		.in4{
+			background-color:#d4f1ff
+		}
+
+
+		@media screen and (min-width:500px)and (max-width:800px)
+		{
+			.giant{
+				width:80%;
+				height:600px;
+
+			}
+			.in{
+				width:50%;
+				display:inline-block;
+				height:150px;
+
+			}
+			.in0{
+				width:100%;height:300px;
+			}
+		}
+
+		@media screen and (min-width:800px)
+		{
+			.giant{
+				width:90%;
+				height:500px;
+				justify-content:centre;
+				margin:0px auto;
+			}
+			.in{
+				display:inline-block;
+				width:33.3%;
+				order:3;
+				height:200px;
+			}
+			.in0{
+				order:1;
+				width:60%;
+				height:300px;
+			}
+			.in1{
+				order:2;
+				width:40%;
+				height:300px;
+			}
+
+		}
+
+
+
+
+	</style>
+
+	<title>mostly fluid
+	</title>
+
+</head>
+<body>
+	<div class="giant">
+
+		<div  class="in in0"></div>
+		<div class="in in1"></div>
+		<div class="in in2"></div>
+		<div class="in in3"></div>
+		<div class="in in4"></div>
+
+	</div>
+</body>
+</html>

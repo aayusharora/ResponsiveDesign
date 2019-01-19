@@ -1,0 +1,69 @@
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container {
+	width: 300px;
+	height: 620px;
+}
+aside {
+	width: 150px;
+	height: 620px;
+}
+.box {
+	width: inherit;
+	height: 50%;
+}
+.box1 {
+	background-color: #164388;
+	width: inherit;
+	height: inherit;
+}
+.box2 {
+	background-color: #3979d9;
+}
+.box3 {
+	background-color: #cadbf8;
+}
+
+@media(min-width: 720px)
+{
+	.container {
+		width: 70%;
+	}
+	.box {
+		width: 100%;
+	}
+	aside {
+		width: 20%;
+	}
+	.box1 {
+		width: 100%;
+	}
+	
+}
+@media (max-width: 720px)
+{
+	aside{
+		width: 100%;
+		height: 140px;
+	}
+	.box1 {
+		width: 100%;
+		height: 100%;
+	}
+	.container {
+		width: 100%;
+	}
+	.box2 {
+		width: 100%;
+		height: 400px;
+	}
+	.box3 {
+		width: 100%;
+		height: 600px;
+	}
+}
+
+

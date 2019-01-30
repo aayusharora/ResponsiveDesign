@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.box{
+    width: 100%;
+    height: 200px;
+}
+
+.box1{
+    background-color: palevioletred;
+}
+
+.box2{
+    background-color: crimson;
+}
+
+.box3{
+    background-color: darkkhaki;
+}
+
+.box4{
+    background-color: aqua;
+}
+
+.box5{
+    background-color: darkgreen;
+}
+
+.box6{
+    background-color: fuchsia;
+}
+.box7{
+    background-color: navy;
+}
+
+.box8{
+    background-color: darkgoldenrod;
+}
+
+.box9{
+    background-color: chocolate;
+}
+
+
+@media screen and (min-width:420px) {
+    .box.box1{
+        width: 100%;
+    }
+
+    .box{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 720px)  {
+    .container{
+        margin: 0 auto;
+    }
+
+
+}

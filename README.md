@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# WebDevelopmentProjects
+=======
 # Responsive Design Patterns
 
 ## About
@@ -36,3 +39,4 @@
     -  [Google Developers Guide](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns)
    
    
+>>>>>>> 091830d16283b73b75e2559626c29c044eb5091a

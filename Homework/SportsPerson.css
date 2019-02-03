@@ -1,0 +1,67 @@
+header h1
+{
+    margin-left: 10px;
+}
+
+main h2
+{
+    margin-left: 20px;
+}
+
+.align li
+{
+    display: inline-block;
+    padding-right: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.align
+{
+    background-color: #d4f3db;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main aside
+{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    background-color: #d4f3db;
+}
+
+main aside h4
+{
+    text-align: center;
+}
+
+main aside ul
+{
+    padding: 20px;
+    height: fit-content;
+}
+
+main aside ul li
+{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.content
+{
+    padding: 10px;
+    display: inline-block;
+    width: 88%;
+}
+
+footer
+{
+    padding: 10px;
+    display: block;
+    margin-left: 10px;
+    color: black;
+    background-color: #d4f3db;
+}
